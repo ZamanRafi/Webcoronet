@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+*>* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.row {
+    padding: 0;
+}
+
+.col-md-6 {
+    padding: 0;
+}
+
+
+/* --------------- Header --------------- */
+
+.header {
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.nav-brand {
+    padding-top: 20px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #191818;
+    padding-top: 24px;
+}
+
+.lets-chat {
+    padding: 20px 0px 0 47px;
+}
+
+.lets-chat a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #191818;
+}
+
+
+/* --------------- /Header --------------- */
+
+
+/* --------------- Banner-area ---------------- */
+
+.home {
+    width: 100%;
+}
+
+.banner {
+    margin: auto;
+    padding-bottom: 65px;
+}
+
+.banner-content {
+    padding: 94px 0 0 0;
+}
+
+.banner-title {
+    font-weight: 500;
+    font-size: 64px;
+    color: #000000;
+}
+
+.banner-subtitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 17px 0 15px 0;
+}
+
+.banner-button {
+    background: #FFCF2D;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    padding: 21px 47px 21px 47px;
+}
+
+.banner-image {
+    padding: 50px 0 0 0;
+}
+
+
+/* --------------- /Banner-area ---------------- */
+
+
+/* ------------------- Services-area ---------------------- */
+
+.service {
+    padding: 12px 0 0 0;
+}
+
+.services-title {
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    padding: 0 0 70px 0;
+}
+
+.services-content {
+    margin: 0 0 0 185px;
+}
+
+.service-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #3650AB;
+    padding: 20px 0 10px 0;
+}
+
+.service-description {
+    width: 425px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.service-button {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    padding: 5px 0 50px 0;
+}
+
+
+/* ------------------- /Services-area ---------------------- */
+
+
+/* ------------------- Brands-area ---------------------- */
+
+.brands {
+    padding: 30px 0 200px 0;
+}
+
+.brand-title {
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+}
+
+.brand {
+    padding: 62px 0 0 0;
+}
+
+.brand-all {
+    width: 1307px;
+    margin: 0 0px 0 52px;
+}
+
+.brand-card-background {
+    width: 549px;
+    height: 518px;
+    border-radius: 30px;
+    margin: 46px 0px 0 -26px;
+    position: absolute;
+}
+
+.brand-main {
+    width: 554px;
+    height: 535px;
+    background: #FFFFFF;
+    border: 1px solid #8C8C8C;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.first {
+    background: #FFCF2D;
+}
+
+.second {
+    background: #FE5244;
+}
+
+.third {
+    background: #3AA2A6;
+}
+
+.fourth {
+    background: #73325A;
+}
+
+.brand-card-title {
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    padding: 63px 0 0 0;
+}
+
+.brand-card-description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 43px 0 34px 52px;
+    width: 475px;
+}
+
+.brand-button {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    float: right;
+    padding: 0 42px 0 0;
+}
+
+
+/* ------------------- /Brands-area ---------------------- */
+
+
+/*  ------------------- About-us-area ----------------------  */
+
+.about {
+    padding: 10px 0 120px 0;
+    margin: auto;
+}
+
+.about-color {
+    position: absolute;
+    width: 100px;
+    height: 386px;
+    background: #FF9797;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+}
+
+.about-description {
+    width: 700px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+}
+
+
+/*  ------------------- /About-us-area ----------------------  */
+
+
+/* - ------------------- Form-area ----------------------  */
+
+.form {
+    padding: 50px 0 100px 0;
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 40px;
+    color: #41220B;
+    text-align: center;
+}
+
+.form-input-area {
+    justify-content: center;
+    padding: 32px 0 0 0;
+}
+
+.form-input {
+    padding: 19px 188px 19px 50px;
+    font-size: 24px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin: 0 12px 0 0;
+}
+
+.form-button {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 0 57px 0 57px;
+}
+
+
+/* - ------------------- /Form-area ----------------------  */
+
+
+/* ------------------- Footer-area ---------------------- */
+
+.footer {
+    background: #363636;
+}
+
+.footer-first {
+    padding: 83px 0 0 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer-logo {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.footer-nav {
+    margin: 16px 0px 0 -32px;
+}
+
+.footer-link {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0 50px 0px 0;
+}
+
+.social-logos {
+    padding: 0 50px 0 0;
+    float: right;
+}
+
+.social-area {
+    padding: 93px 0 0 0;
+}
+
+.follow-logo {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.social-midea-logo {
+    padding: 10px 0 10px 0;
+}
+
+.social-logo {
+    color: #FFFFFF;
+    margin: 0 0px 0 23px;
+    font-size: 30px;
+}
+
+.footer-last {
+    padding: 0 0 75px 0;
+}
+
+.term {
+    margin: 23px 0px 10px -43px;
+}
+
+.terms-link {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 50px 0 0;
+}
+
+.copyrights {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 0 0 0 -10px;
+}
+
+
+/* ------------------- /Footer-area ---------------------- */
