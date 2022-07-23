@@ -38,12 +38,17 @@ button {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.nav {
-    justify-content: space-between;
-}
-
 .nav-brand {
     padding-top: 20px;
+}
+
+.webcoronet-nav {
+    margin: -8px 0 0 0;
+    justify-content: end;
+}
+
+.nav-item {
+    padding-right: 15px;
 }
 
 .nav-link {
@@ -53,14 +58,29 @@ button {
     padding-top: 24px;
 }
 
+.nav-menu {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+}
+
 .lets-chat {
-    padding: 20px 0px 0 47px;
+    border: 0.5px solid #000000;
+    border-radius: 20px;
+    margin: 15px 0 0 7px;
+    padding: 5px 32px 5px 32px;
 }
 
 .lets-chat a {
     font-weight: 400;
     font-size: 14px;
     color: #191818;
+}
+
+.toggle-btn {
+    display: none;
 }
 
 
@@ -292,6 +312,7 @@ button {
 }
 
 .form-input-area {
+    display: flex;
     justify-content: center;
     padding: 32px 0 0 0;
 }
