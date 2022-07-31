@@ -70,13 +70,14 @@ button {
     border: 0.5px solid #000000;
     border-radius: 20px;
     margin: 15px 0 0 7px;
-    padding: 5px 32px 5px 32px;
+    padding: 5px 0 5px 0;
 }
 
 .lets-chat a {
     font-weight: 400;
     font-size: 14px;
     color: #191818;
+    padding: 0 32px 0 32px;
 }
 
 .toggle-btn {

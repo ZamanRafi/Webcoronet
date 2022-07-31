@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+*>* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+
+/* --------------- Header --------------- */
+
+.header {
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-brand {
+    padding-top: 20px;
+}
+
+.webcoronet-nav {
+    margin: -8px 0 0 0;
+    justify-content: end;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #191818;
+    padding-top: 24px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.lets-chat {
+    border: 0.5px solid #000000;
+    border-radius: 20px;
+    margin: 15px 0 0 7px;
+    padding: 5px 0 5px 0;
+}
+
+.lets-chat a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #191818;
+    padding: 0 32px 0 32px;
+}
+
+.toggle-btn {
+    display: none;
+}
+
+
+/* --------------- /Header --------------- */
+
+
+/* ------------------------ Main-area----------------------------- */
+
+
+/* ------------ Blog-area ------------- */
+
+.blog-area {
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.blog {
+    width: 70%;
+}
+
+.blog-title {
+    font-weight: 500;
+    font-size: 48px;
+    padding: 60px 0 20px 0;
+}
+
+.blog-content {
+    width: 80%;
+    padding: 0 0 130px 0;
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.blog-list {
+    width: 30%;
+}
+
+.sign-up-section {
+    margin: 65px 0 0 0;
+}
+
+.blog-newsletter {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.blog-email-from {
+    width: 330px;
+    margin: 70px 0 24px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.email {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 22px;
+    border: none;
+}
+
+.sign-up-button {
+    background: #FFCF2D;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    padding: 21px 120px 21px 120px;
+}
+
+.article {
+    margin: 55px 0 0 0;
+}
+
+.article-title {
+    font-weight: 500;
+    font-size: 24px;
+    padding: 35px 0 7px 0;
+}
+
+.article-description {
+    width: 90%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* ------------ /Blog-area  ----------- */
+
+
+/* ------------------------ /Main-area----------------------------- */
+
+
+/* ------------------- Footer-area ---------------------- */
+
+.footer {
+    background: #363636;
+}
+
+.footer-first {
+    padding: 83px 0 0 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer-logo {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.footer-nav {
+    margin: 16px 0px 0 -32px;
+}
+
+.footer-link {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0 50px 0px 0;
+}
+
+.social-logos {
+    padding: 0 50px 0 0;
+    float: right;
+}
+
+.social-area {
+    padding: 93px 0 0 0;
+}
+
+.follow-logo {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.social-midea-logo {
+    padding: 10px 0 10px 0;
+}
+
+.social-logo {
+    color: #FFFFFF;
+    margin: 0 0px 0 23px;
+    font-size: 30px;
+}
+
+.footer-last {
+    padding: 0 0 75px 0;
+}
+
+.term {
+    margin: 23px 0px 10px -43px;
+}
+
+.terms-link {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 50px 0 0;
+}
+
+.copyrights {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 0 0 0 -10px;
+}
+
+
+/* ------------------- /Footer-area ---------------------- */
