@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
+/* Blogs css file */
+
+@import url(blogs.css);
+
+/* Blog css file */
+
+@import url(blog.css);
+
+/* team */
+
+@import url(team.css);
 *>* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Poppins';
+    font-weight: 400;
     color: #000000;
 }
 
@@ -33,55 +46,26 @@ button {
 
 .header {
     width: 100%;
-    height: 70px;
-    margin: auto;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.nav-brand {
-    padding-top: 20px;
-}
-
 .webcoronet-nav {
-    margin: -8px 0 0 0;
     justify-content: end;
+    background: #ffffff;
 }
 
-.nav-item {
-    padding-right: 15px;
-}
-
-.nav-link {
+.nav-content a {
     font-weight: 400;
     font-size: 14px;
     color: #191818;
-    padding-top: 24px;
-}
-
-.nav-menu {
-    display: flex;
-}
-
-.nav-list {
-    display: flex;
+    margin: 9px 15px 0 0;
 }
 
 .lets-chat {
     border: 0.5px solid #000000;
     border-radius: 20px;
-    margin: 15px 0 0 7px;
-    padding: 5px 0 5px 0;
-}
-
-.lets-chat a {
-    font-weight: 400;
-    font-size: 14px;
-    color: #191818;
-    padding: 0 32px 0 32px;
-}
-
-.toggle-btn {
-    display: none;
+    margin: 18px 0 0 7px;
+    padding: 5px 32px;
 }
 
 
@@ -96,20 +80,16 @@ button {
 
 .banner {
     margin: auto;
-    padding-bottom: 65px;
+    padding: 94px 0 65px 0;
 }
 
-.banner-content {
-    padding: 94px 0 0 0;
-}
-
-.banner-title {
+.banner-content h1 {
     font-weight: 500;
     font-size: 64px;
     color: #000000;
 }
 
-.banner-subtitle {
+.banner-content p {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 25px;
@@ -117,7 +97,7 @@ button {
     padding: 17px 0 15px 0;
 }
 
-.banner-button {
+.banner-content button {
     background: #FFCF2D;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -125,10 +105,6 @@ button {
     font-size: 25px;
     color: #000000;
     padding: 21px 47px 21px 47px;
-}
-
-.banner-image {
-    padding: 50px 0 0 0;
 }
 
 
@@ -146,11 +122,10 @@ button {
     font-size: 48px;
     color: #000000;
     text-align: center;
-    padding: 0 0 70px 0;
 }
 
 .services-content {
-    margin: 0 0 0 185px;
+    margin: 70px 0 0 185px;
 }
 
 .service-title {
@@ -163,14 +138,12 @@ button {
 .service-description {
     width: 425px;
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.6);
 }
 
 .service-button {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 20px;
     color: #000000;
     padding: 5px 0 50px 0;
@@ -186,7 +159,7 @@ button {
     padding: 30px 0 200px 0;
 }
 
-.brand-title {
+.brands h1 {
     font-weight: 500;
     font-size: 48px;
     color: #000000;
@@ -194,25 +167,18 @@ button {
 }
 
 .brand {
-    padding: 62px 0 0 0;
-}
-
-.brand-all {
-    width: 1307px;
-    margin: 0 0px 0 52px;
+    margin: 75px 0px 30px 60px;
 }
 
 .brand-card-background {
-    width: 549px;
-    height: 518px;
+    padding: 259px 275px;
     border-radius: 30px;
     margin: 46px 0px 0 -26px;
     position: absolute;
 }
 
 .brand-main {
-    width: 554px;
-    height: 535px;
+    width: 96.5%;
     background: #FFFFFF;
     border: 1px solid #8C8C8C;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
@@ -235,28 +201,26 @@ button {
     background: #73325A;
 }
 
-.brand-card-title {
+.brand-main h5 {
     font-weight: 500;
     font-size: 64px;
     text-align: center;
     padding: 63px 0 0 0;
 }
 
-.brand-card-description {
+.brand-main p {
+    width: 86%;
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 24px;
     color: rgba(0, 0, 0, 0.7);
     padding: 43px 0 34px 52px;
-    width: 475px;
 }
 
-.brand-button {
+.brand-main button {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 20px;
-    float: right;
-    padding: 0 42px 0 0;
+    text-align: left;
+    margin: 0 0 82px 52px;
 }
 
 
@@ -271,28 +235,27 @@ button {
 }
 
 .about-color {
+    padding: 193px 50px;
     position: absolute;
-    width: 100px;
-    height: 386px;
     background: #FF9797;
 }
 
-.about-title {
+.about h1 {
     font-weight: 500;
     font-size: 48px;
     text-align: center;
 }
 
-.about-description {
-    width: 700px;
+.about p {
+    width: 53%;
+    margin: auto;
+    padding: 25px 0 0 0;
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 20px;
     line-height: 34px;
     text-align: center;
     letter-spacing: 0.02em;
     color: rgba(0, 0, 0, 0.8);
-    margin: auto;
 }
 
 
@@ -305,7 +268,7 @@ button {
     padding: 50px 0 100px 0;
 }
 
-.form-title {
+.form h1 {
     font-weight: 400;
     font-size: 40px;
     color: #41220B;
@@ -318,7 +281,7 @@ button {
     padding: 32px 0 0 0;
 }
 
-.form-input {
+.form-input-area input {
     padding: 19px 188px 19px 50px;
     font-size: 24px;
     border: 1px solid #000000;
@@ -326,11 +289,11 @@ button {
     margin: 0 12px 0 0;
 }
 
-.form-button {
+.form-input-area button {
     border: 1px solid #000000;
     border-radius: 20px;
     font-size: 24px;
-    padding: 0 57px 0 57px;
+    padding: 19px 57px;
 }
 
 
@@ -348,20 +311,24 @@ button {
     border-bottom: 1px solid #ffffff;
 }
 
-.footer-logo {
+.footer-nav-area h1 {
     font-size: 24px;
     color: #FFFFFF;
 }
 
 .footer-nav {
-    margin: 16px 0px 0 -32px;
+    margin: 16px 0px 0 0;
 }
 
-.footer-link {
+.footer-nav a {
     font-family: 'Roboto';
     font-size: 24px;
     color: #FFFFFF;
     margin: 0 50px 0px 0;
+}
+
+.social-area {
+    padding: 93px 0 0 0;
 }
 
 .social-logos {
@@ -369,49 +336,43 @@ button {
     float: right;
 }
 
-.social-area {
-    padding: 93px 0 0 0;
-}
-
-.follow-logo {
+.social-logos h2 {
     font-family: 'Roboto';
     font-size: 24px;
     color: #FFFFFF;
     text-align: center;
+    margin: 0 0 78px 0;
 }
 
-.social-midea-logo {
+
+/* .social-midea-logo {
     padding: 10px 0 10px 0;
 }
 
-.social-logo {
+.social-midea-logo img {
     color: #FFFFFF;
     margin: 0 0px 0 23px;
     font-size: 30px;
-}
+} */
 
 .footer-last {
     padding: 0 0 75px 0;
 }
 
-.term {
-    margin: 23px 0px 10px -43px;
-}
-
-.terms-link {
+.footer-last a {
     font-family: 'Roboto';
     font-size: 18px;
     color: #FFFFFF;
-    margin: 0 50px 0 0;
+    margin: 22px 50px 13px -11px;
 }
 
-.copyrights {
+.footer-last p {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    margin: 0 0 0 -10px;
+    margin: 0 0 0 -11px;
 }
 
 

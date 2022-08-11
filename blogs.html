@@ -6,44 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webcoronet-Blogs</title>
-    <!-- Bootstrap-icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- main-css -->
-    <link rel="stylesheet" href="css/blogs.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- ------------------- Header ---------------------- -->
     <header class="header" id="header">
-        <nav class="navbar navbar-expand-lg container">
-            <a class="navbar-brand" href="#"><img src="img/logo white.png" alt="logo" class="wevcoronet-logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="webcoronet-nav collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container p-0">
+                <a href="index.html"><img src="img/logo white.png" alt="logo" class="wevcoronet-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse webcoronet-nav" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-content">
                         <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blog</a>
                         <a class="nav-link" href="#brands">Resources</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="team.html">Team</a>
-                    </li>
-                </ul>
-                <div class="lets-chat">
-                    <a href="#">Lets Chat</a>
+                        <a class="lets-chat" href="#">Lets Chat</a>
+                    </div>
                 </div>
-            </div>
         </nav>
     </header>
     <!-- ------------------- /Header ---------------------- -->
@@ -51,8 +38,8 @@
     <div class="main">
         <!-- -------------------- Blog-Banner ---------------------- -->
         <div class="blog-banner container">
-            <h1 class="blog-title">Blog Posts</h1>
-            <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit Amet minim mollit non deserunt ullamco est
+            <h1>Blog Posts</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Amet minim mollit non deserunt ullamco est
             </p>
         </div>
         <!-- ----------------------- /Blog-banner -------------------- -->
@@ -62,52 +49,55 @@
             <div class="blog-list">
                 <div class="blog-categorys">
                     <ul>
-                        <li><a href="#" class="blog-category">Category name 1</a></li>
-                        <li><a href="#" class="blog-category">Category name 2</a></li>
-                        <li><a href="#" class="blog-category">Category name 3</a></li>
-                        <li><a href="#" class="blog-category">Category name 4</a></li>
-                        <li><a href="#" class="blog-category">Category name 5</a></li>
+                        <li><a href="#">Category name 1</a></li>
+                        <li><a href="#">Category name 2</a></li>
+                        <li><a href="#">Category name 3</a></li>
+                        <li><a href="#">Category name 4</a></li>
+                        <li><a href="#">Category name 5</a></li>
                     </ul>
                 </div>
-                <a href="#" class="blog-newsletter">Newsletter</a>
+                <a href="#">Newsletter</a>
                 <div class="blog-email-from">
-                    <input type="text" class="email-input email" placeholder="enter your email address">
+                    <input type="text" class="email-input" placeholder="enter your email address">
                 </div>
-                <button type="button" class="sign-up-button">Sign Up</button>
+                <button type="button" class="btn">Sign Up</button>
 
             </div>
             <div class="blog-items">
                 <div class="top-article">
                     <img src="img/blog.png" alt="Blog">
-                    <h2 class="top-article-title">Article Title</h2>
-                    <p class="top-article-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
+                    <h2>Article Title</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
                         officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                    <a href="blog.html">Read More <img src="img/arrow-right (1) 1.png" alt=""></a>
                 </div>
-                <div class="articles">
-                    <div class="">
-                        <div class="article">
-                            <img src="img/blog-small.png" alt="Blog" class="article-img">
-                            <h3 class="article-title">Article Title</h3>
-                            <p class="article-description">Sed tincidunt, augue pulvinar bibendum molestie, lacus lacus interdum est, nec luctus nisl arcu ut elit. </p>
-                        </div>
-                        <div class="article">
-                            <img src="img/blog-small.png" alt="Blog" class="article-img">
-                            <h3 class="article-title">Article Title</h3>
-                            <p class="article-description">Sed tincidunt, augue pulvinar bibendum molestie, lacus lacus interdum est, nec luctus nisl arcu ut elit. </p>
-                        </div>
+                <div class="articles row d-flex">
+
+                    <div class="article col-md-6">
+                        <img src="img/blog-small.png" alt="Blog">
+                        <h3>Article Title</h3>
+                        <p>Sed tincidunt, augue pulvinar bibendum molestie, lacus lacus interdum est, nec luctus nisl arcu ut elit. </p>
+                        <a href="blog.html">Read More <img src="img/arrow-right (1) 1.png" alt=""></a>
                     </div>
-                    <div class="">
-                        <div class="article">
-                            <img src="img/blog-small.png" alt="Blog" class="article-img">
-                            <h3 class="article-title">Article Title</h3>
-                            <p class="article-description">Sed tincidunt, augue pulvinar bibendum molestie, lacus lacus interdum est, nec luctus nisl arcu ut elit. </p>
-                        </div>
-                        <div class="article">
-                            <img src="img/blog-small.png" alt="Blog" class="article-img">
-                            <h3 class="article-title">Article Title</h3>
-                            <p class="article-description">Sed tincidunt, augue pulvinar bibendum molestie, lacus lacus interdum est, nec luctus nisl arcu ut elit. </p>
-                        </div>
+                    <div class="article col-md-6">
+                        <img src="img/blog-small.png" alt="Blog">
+                        <h3>Article Title</h3>
+                        <p>Sed tincidunt, augue pulvinar bibendum molestie, lacus lacus interdum est, nec luctus nisl arcu ut elit. </p>
+                        <a href="blog.html">Read More <img src="img/arrow-right (1) 1.png" alt=""></a>
                     </div>
+                    <div class="article col-md-6">
+                        <img src="img/blog-small.png" alt="Blog">
+                        <h3>Article Title</h3>
+                        <p>Sed tincidunt, augue pulvinar bibendum molestie, lacus lacus interdum est, nec luctus nisl arcu ut elit. </p>
+                        <a href="blog.html">Read More <img src="img/arrow-right (1) 1.png" alt=""></a>
+                    </div>
+                    <div class="article col-md-6">
+                        <img src="img/blog-small.png" alt="Blog">
+                        <h3>Article Title</h3>
+                        <p>Sed tincidunt, augue pulvinar bibendum molestie, lacus lacus interdum est, nec luctus nisl arcu ut elit. </p>
+                        <a href="blog.html">Read More <img src="img/arrow-right (1) 1.png" alt=""></a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -120,62 +110,36 @@
     <footer class="footer" id="footer">
         <div class="container">
             <div class="footer-first row">
-                <div class="col-md-6">
-                    <h1 class="footer-logo">Webcoronet</h1>
-                    <div class="footer-nav">
-                        <ul class="d-flex">
-                            <li>
-                                <a href="#" class="footer-link">About US</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer-link">Support</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer-link">Career</a>
-                            </li>
-                        </ul>
+                <div class="footer-nav-area  col-md-6">
+                    <a href="#">
+                        <h1>Webcoronet</h1>
+                    </a>
+                    <div class="footer-nav d-flex">
+                        <a href="#about-us">About US</a>
+                        <a href="#">Support</a>
+                        <a href="#">Career</a>
                     </div>
                 </div>
                 <div class="social-area col-md-6">
                     <div class="social-logos">
-                        <h2 class="follow-logo">Follow US</h2>
-                        <div class="social-midea-logo">
-                            <ul class="d-flex">
-                                <li>
-                                    <a href="#"><i class="bi bi-facebook social-logo"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="bi bi-twitter social-logo"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="bi bi-instagram social-logo"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="bi bi-linkedin social-logo"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="bi bi-messenger social-logo"></i></a>
-                                </li>
-                            </ul>
-                        </div>
+                        <h2>Follow US</h2>
+                        <!-- <div class="social-midea-logo d-flex">
+                            <a href="#"><img src="img/facebook-f-brands.svg" alt=""></a>
+                            <a href="#"><img src="img/twitter-brands.svg" alt=""></a>
+                            <a href="#"><img src="img/linkedin-in-brands.svg" alt=""></a>
+                            <a href="#"><img src="img/instagram-brands.svg" alt=""></a>
+                            <a href="#"><img src="img/vimeo-v-brands.svg" alt=""></a>
+                        </div> -->
                     </div>
                 </div>
             </div>
             <div class="footer-last">
-                <div class="terms">
-                    <ul class="term d-flex">
-                        <li>
-                            <a href="#" class="terms-link">Terms & condition</a>
-                        </li>
-                        <li>
-                            <a href="#" class="terms-link">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="#" class="terms-link">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyrights">© 2022 Webcoronet HTML Template Designed by Titun Chandra Dey, Powered By Graphicsaw </p>
+                <div class="d-flex">
+                    <a href="#">Terms & condition</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Contact</a>
                 </div>
+                <p>© 2022 Webcoronet Powered By Graphicsaw </p>
             </div>
         </div>
     </footer>
